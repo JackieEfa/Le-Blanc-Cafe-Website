@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html class="Homepage">
+    <head>
+        <title>LEBLANC</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    <!-- Put All Fonts Here! -->
+        
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="CSS/style.css">
+                        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
+    
+    </head>
+    <body>
+
+    <!-- Navigation / Menu -->
+<div class="LeBlancMenu">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="index.html" class="w3-bar-item">LeBlanc</a> <!-- Add w3-button if messes up -->
+      
+    <div class="w3-right w3-hide-small">
+      <a href="about.html" class="w3-bar-item w3-button">About</a>
+      <a href="menu.html" class="w3-bar-item w3-button">Menu</a>
+      <a href="reservation.html" class="w3-bar-item w3-button">Reservations</a>
+      <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+      <a href="checkout.html" class="w3-bar-item w3-button">CheckOut</a>
+        
+    </div>
+  </div>
+</div>
+</body>
+    
+            <!-- Reservation Image -->
+        <img class="bgHomePage" src="images/groupstaffreserve.jpg" style="opacity: 0.5" width="2000" height="2000">
+    
+        <!-- Reservation -->
+        <div class="w3-container w3-padding-32 w3-center" id="Resevation">
+            <h3 class="TitleInfo w3-border-bottom w3-padding-32 w3-black w3-opacity-min"><b>Book A Reservation</b></h3>
+        <div class="Parastyle">
+
+    <!-- About Text Filling NEED DESC!!!! -->
+    <p>Please fill in all the information below
+    </p>
+    </div>
+  </div>
+    
+    <div class="reservebox w3-container">
+        <h3 class="TitleInfo w3-border-bottom w3-padding-32 w3-center "><b>Reserve a booth or table:</b></h3>
+        
+      <form action="thankyou2.html" target="_blank">
+        <h5><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></h5>
+          
+        <h5><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></h5>
+          
+        <h5><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2022-07-25T20:00"></h5>
+          
+        <h5><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></h5>
+          
+        <h5><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></h5>
+          
+        <h5><button href="thankyou2.html" class="btn btn-primary w3-hover-red w3-black w3-center" type="submit">COMPLETE RESERVATION</button></h5>
+          
+      </form>
+        
+    </div>
+</html>

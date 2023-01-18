@@ -1,0 +1,232 @@
+.bgHomePage {
+  height: 100%;
+  width: 100%;
+  margin: 0;  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.LeBlancMenu{
+    font-size: 30px;
+}
+
+.TitleFontSize {
+    font-family: monospace;
+    font-size: 80px;
+}
+
+.TitleInfo {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 80px;
+}
+
+.TitleInfoMenu{
+    font-family: 'Pinyon Script', cursive;
+    font-size: 80px;
+    color: #E41B17;
+}
+
+.Parastyle {
+    font-family: monospace;
+    font-size: 30px;
+    margin: auto;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.box {
+        width: 1000px;
+        height: 1000px;
+        background-size: cover;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        display: flex;
+        border: 5px solid #010b13;
+}
+
+.img {
+        width: 1000px;
+        height: 1000px;
+        object-fit: cover;
+}
+
+.reservebox {
+        width: 1000px;
+        height: 700px;
+        margin: auto;
+        margin-bottom: 20px;
+        border: 5px solid #010b13;
+}
+
+.checkoutbox {
+        width: 1000px;
+        height: 860px;
+        margin: auto;
+        margin-bottom: 20;
+        border: 5px solid #010b13;
+}
+
+.contactbox {
+        width: 800px;
+        height: 800px;
+        margin: auto;
+        margin-top: 10%;
+        border: 5px solid #010b13;
+}
+
+.contactbackground {
+  height: 100%;
+  width: 100%;
+  margin: 0;  
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.LargeTitleNeut{
+    font-family: monospace;
+    background-color: #E41B17;
+    color: white;
+    padding: 2px 8px;
+    text-align: left;
+    font-size: 40px;
+}
+
+.SubTitleNeut{
+    font-family: monospace;
+    color: #E41B17;
+    padding: 2px 8px;
+    text-align: left;
+    font-size: 10px;
+}
+
+/* Menu CSS */
+
+.left-media-body img {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.floatimg {
+    float: left;
+    margin-left: 2%;
+    margin-right: 5%;
+    height: 300px;
+    width: 500px;
+}
+
+.spaceam {
+    margin-left: 6%;
+}
+
+.text-wrap {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.logo
+{
+  font-size: 25px;
+}
+
+.digit
+{
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.left-media-body
+{
+  width: 1000px;
+  float: left;
+}
+
+.right-checkout
+{
+  float: right;
+  width: 340px;
+  padding-right: 10px;
+}
+
+/* Checkout Box */
+
+.panel-danger>.panel-heading {
+    color: #FFFFFF;
+    background-color: #E41B17;
+    border-color: #CE0D00;
+}
+
+.quantity
+{
+  float: right;
+}
+
+.footer-distributed
+{
+  background-color: #E41B17;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 30px;
+}
+
+.redbottom {
+  border-bottom: 5px solid red;
+}
+
+
+/* Checkout CSS */
+
+.signup-card
+{
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border: 1px solid black;
+}
+
+.btn-primary
+{
+  background-color: #E41B17; 
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 2px;
+}
+
+.orderstyle {
+    font-family: monospace;
+    font-size: 25px;
+    margin: auto;
+
+}
+
+#check1 {
+  display: none;
+}
+
+#check2 {
+  display: none;
+}
+
+#check3 {
+  display: none;
+}
+
+#check4 {
+  display: none;
+}
+
+
